@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/cart_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/kisiFoto"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_41" />
+
+        <TextView
+            android:id="@+id/kisiAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="Fatma Tuncer"
+            app:layout_constraintBottom_toBottomOf="@+id/kisiFoto"
+            app:layout_constraintStart_toEndOf="@+id/kisiFoto"
+            app:layout_constraintTop_toTopOf="@+id/kisiFoto" />
+
+        <TextView
+            android:id="@+id/tarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="12.12.2023"
+            app:layout_constraintStart_toStartOf="@+id/kisiAd"
+            app:layout_constraintTop_toBottomOf="@+id/kisiAd" />
+
+        <TextView
+            android:id="@+id/yorum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_medium"
+            android:text="Bende yaptım gayet güzel oldu,
+            \nherkese tavsiye ederim."
+            app:layout_constraintStart_toStartOf="@+id/kisiFoto"
+            app:layout_constraintTop_toBottomOf="@+id/kisiFoto" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/yorum"
+            app:layout_constraintTop_toBottomOf="@+id/yorum"
+            app:srcCompat="@drawable/img_42" />
+
+        <TextView
+            android:id="@+id/begeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="3"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+            app:layout_constraintStart_toEndOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+            app:layout_constraintStart_toEndOf="@+id/begeni"
+            app:layout_constraintTop_toTopOf="@+id/imageView29"
+            app:srcCompat="@drawable/img_43" />
+
+        <TextView
+            android:id="@+id/paylas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:text="1"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+            app:layout_constraintStart_toEndOf="@+id/imageView30"
+            app:layout_constraintTop_toTopOf="@+id/imageView30" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

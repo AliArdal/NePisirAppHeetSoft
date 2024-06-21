@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FotoEkle.TebriklerActivity">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/tebrikler"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/img_54"
+        app:layout_constraintEnd_toEndOf="@+id/textView38"
+        app:layout_constraintStart_toStartOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/kazandiniz"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/img_11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cuzdanim"
+        app:layout_constraintEnd_toEndOf="@+id/imageView48"
+        app:layout_constraintStart_toStartOf="@+id/imageView48"
+        app:layout_constraintTop_toTopOf="@+id/imageView48" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
+        android:text="150LP"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView43"
+        app:layout_constraintStart_toStartOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <Button
+
+        android:id="@+id/kapat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/kapat"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView48" />
+</androidx.constraintlayout.widget.ConstraintLayout>

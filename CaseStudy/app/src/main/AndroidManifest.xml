@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CaseStudy"
+        tools:targetApi="31">
+        <activity
+            android:name=".BildirimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ayse.AyseTakipciActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ayse.AyseVitrinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ayse.AyseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakipEdilenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakipciActivity"
+            android:exported="false" />
+        <activity
+            android:name=".yemeklerim.ArsivActivity"
+            android:exported="false" />
+        <activity
+            android:name=".yemeklerim.GonderdigimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".yemeklerim.UrettigimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".yemeklerim.YemeklerimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FotoEkle.TebriklerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FotoEkle.FotoEkleActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".FotoEkle.FotoEkleActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".FotoEkle.FotoEkleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YemekTarifiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.UyeOlActivity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.GirisActivity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.Tanitim5Activity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.Tanitim4Activity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.Tanitim3Activity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.Tanitim2Activity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".tanitim.Tanitim1Activity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

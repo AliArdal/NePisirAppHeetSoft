@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gri"
+    tools:context=".yemeklerim.YemeklerimActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_64" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/yemeklerim"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView51"
+            app:layout_constraintStart_toEndOf="@+id/imageView51"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/arsiv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView53"
+            app:layout_constraintEnd_toStartOf="@+id/arsivText"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_65" />
+
+        <TextView
+            android:id="@+id/arsivText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/arsiv"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/arsiv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/arsiv" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/yaptigim"
+
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/toolbar4"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <ImageView
+            android:id="@+id/imageView71"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView55"
+            app:srcCompat="@drawable/img_67" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/gonderdigim"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView55"
+            app:layout_constraintEnd_toEndOf="@+id/arsivText"
+            app:layout_constraintTop_toTopOf="@+id/textView55" />
+
+        <ImageView
+            android:id="@+id/imageView72"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:layout_constraintEnd_toEndOf="@id/textView57"
+            app:layout_constraintStart_toStartOf="@id/textView57"
+            app:layout_constraintTop_toBottomOf="@id/textView57"
+            app:layout_goneMarginTop="3dp"
+            app:srcCompat="@drawable/img_66"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/urettigim"
+            android:textColor="@color/tema"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView58" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="409dp"
+        android:layout_height="802dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <FrameLayout
+
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/anasayfa"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/img_57" />
+
+            <ImageView
+                android:id="@+id/sosyal"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/img_16" />
+
+            <ImageView
+                android:id="@+id/Mağaza"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/img_17" />
+
+            <ImageView
+                android:id="@+id/Profil"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/img_18" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

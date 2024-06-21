@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gri"
+    android:layout_height="match_parent"
+    tools:context=".FotoEkle.FotoEkleActivity">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/yemegiyap"
+        app:layout_constraintEnd_toEndOf="@+id/imageView34"
+        app:layout_constraintStart_toStartOf="@+id/imageView34"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/fotoekle"
+        app:layout_constraintEnd_toEndOf="@+id/imageView35"
+        app:layout_constraintStart_toStartOf="@+id/imageView35"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView35"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+        app:srcCompat="@drawable/img_48" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+        app:srcCompat="@drawable/img_48" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/geri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_47" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/paylas"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+        app:srcCompat="@drawable/img_48" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/paylas"
+        app:layout_constraintEnd_toEndOf="@+id/imageView38"
+        app:layout_constraintStart_toStartOf="@+id/imageView38"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/conslaut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/cart_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView31">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="5"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView45"
+            app:layout_constraintStart_toStartOf="@+id/imageView45"
+            app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="4"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView44"
+            app:layout_constraintStart_toStartOf="@+id/imageView44"
+            app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="3"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView43"
+            app:layout_constraintStart_toStartOf="@+id/imageView43"
+            app:layout_constraintTop_toBottomOf="@+id/imageView43" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="2"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView42"
+            app:layout_constraintStart_toStartOf="@+id/imageView42"
+            app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView44"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            app:srcCompat="@drawable/img_52" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView43"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            app:srcCompat="@drawable/img_52" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView40"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            app:srcCompat="@drawable/img_52" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView42"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            app:srcCompat="@drawable/img_52" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/puanla"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            app:srcCompat="@drawable/img_52" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="1"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView40"
+            app:layout_constraintStart_toStartOf="@+id/imageView40"
+            app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/cart_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/conslaut">
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_53" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/cart_background2"
+            android:fontFamily="@font/rubik_medium"
+            android:gravity="center"
+            android:text="@string/degerlendirme"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView46"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView46"
+            app:layout_constraintTop_toTopOf="@+id/imageView46" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/paylasButon"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_shape3"
+            android:text="@string/paylas"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/geriDon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/geriDon"
+            android:textColor="@color/tema"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
